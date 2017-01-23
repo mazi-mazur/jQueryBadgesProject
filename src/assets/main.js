@@ -9,7 +9,7 @@ $(function() {
         $('#badges div').addClass('course');
       });
       });
-    }
+    
   });
 
 });
