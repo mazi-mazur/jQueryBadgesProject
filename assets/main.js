@@ -4,7 +4,8 @@ $(function() {
     dataType: 'jsonp',
     success:function(response){
       $.each(response, function(index){
-        $('#badges').appendTo('div').addClass('course');
+        $('#badges').appendTo('div');
+        $('#badges div').addClass('course')
       });
     }
   });
