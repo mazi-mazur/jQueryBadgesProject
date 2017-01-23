@@ -4,6 +4,6 @@ $(function() {
     dataType: 'jsonp',
     success:function(response){}
   });
-  // your code will go here
+  // your code will go heree
 
 });
