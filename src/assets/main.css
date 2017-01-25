@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Bree+Serif&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic,600,600italic,300&subset=latin,latin-ext);
 
 body {
   font-family: 'Helvetica Neue', serif;
@@ -6,22 +8,36 @@ body {
 
 #badges {
   text-align: center;
+  margin:0 auto;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h1 {
+  font-family: 'Bree Serif';
+  font-size: 4rem;
+  color: #a8323e;
 }
 
 .course {
   background: #F5F5F5;
   border-radius: 5px;
   border: 1px solid #ccc;
-  box-shadow: 1px 1px 5px #EAEAEA;
-  display: inline-block;
+  display: flex-item;
   height: 350px;
   margin: 20px 10px;
   padding: 15px 10px;
-  width: 200px;
+  flex-basis: 200px;
+  flex-grow: 1;
+  min-width: 200px;
+  max-width: 300px;
 }
 
 .course h3 {
   color: #999;
+  font-family: 'Open Sans';
   font-size: 1.9rem;
   font-weight: 200;
   min-height: 80px;;
